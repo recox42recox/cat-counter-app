@@ -1,0 +1,67 @@
+body {
+    background-image: url("BCC-2023-EXPLORER-Istanbul-Fun-things-to-do-in-Istanbul-HEADER_MOBILE.webp");
+    background-size: cover;
+    font-family: Arial, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px lightsalmon;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+body {
+    /* Resmin tekrarlanmasını engeller */
+    background-repeat: no-repeat;
+    
+    /* Resmin tüm alanı kaplamasını sağlar (en boy oranını koruyarak) */
+    background-size: cover;
+    
+    /* Resmi merkeze odaklar */
+    background-position: center;
+    
+    /* Sayfa kaydırılsa bile resmin sabit kalmasını istersen (isteğe bağlı) */
+    background-attachment: fixed;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: block;
+    margin: 4px auto;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+
+.give{
+    
+    max-width: 100vh;
+    margin: 0px auto;
+    border: 2px solid darkgreen;
+    background-color: rgba(178, 223, 180, 0.6);
+    border-radius: 20%;
+    padding: 4px 10px;
+    
+    
+}
